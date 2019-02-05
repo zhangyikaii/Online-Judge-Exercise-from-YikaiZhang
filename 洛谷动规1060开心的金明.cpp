@@ -4,7 +4,7 @@
 using namespace std;
 #define MAX 50000
 
-// 动规注意各个下标表示的是什么！
+// 动规注意各个下标表示的是什么
 // dp数组不要忘了初始化为 0
 
 int MyMax(int a, int b) {
