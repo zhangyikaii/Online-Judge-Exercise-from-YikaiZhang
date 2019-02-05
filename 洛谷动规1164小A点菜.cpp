@@ -2,13 +2,15 @@
 #include<cstdio>
 #include<cmath>
 #include<algorithm>
+
+
 #define MAX 110
 using namespace std;
 int n, m, a[MAX], f[MAX][10010];
 int f1[10010] = { 0 };
 
 /*
-// 未降维
+// 没有降维的
 int main() {
 	scanf("%d%d", &n, &m);
 	for (int i = 1; i <= n; i++)
@@ -45,6 +47,20 @@ int main() {
 	cout << f1[m] << endl;
 	return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 总结：
 dp[i][j]表示前i个菜品恰好花费j元的方案数 dp数组都是这样 前i个物品 花费j元 dp[i][j] 表示的就是答案对应的(方案数)了
