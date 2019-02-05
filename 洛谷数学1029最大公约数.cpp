@@ -30,17 +30,16 @@ int gcd(int x, int y) {
 	if (y == 0) {
 		return x;
 	}
-	return gcd(y, x % y);
+	return gcd(y, x % y);      // 换位了, 广义上的迭代
 }
 
 int main() {
-	cout << gcd(12, 15);
 	cin >> n >> m;
-	for (int i = 1; i <= sqrt(m * n); i++)
-	{
-		if ((n*m) % i == 0 && gcd(i, (n*m) / i) == n)  ans++;
+	for (int i = 1; i <= sqrt(m * n); i++) {
+		if ((n * m) % i == 0 && gcd(i, (n * m) / i) == n)	// 两个数的公因数是 n, 公倍数是 m.
+			ans++;
 	}
-	cout << ans * 2;//最后乘以二是因为只遍历了一半
+	cout << ans * 2;		// 最后乘以二是因为只遍历了一半
 	return 0;
 }
 
@@ -63,4 +62,15 @@ P,Q是正整数
 2、15,12
 3、12,15
 4、60,3
+*/
+
+
+/*
+
+Updates were rejected because the remote contains work that you do
+not have locally. This is usually caused by another repository pushing
+to the same ref. You may want to first integrate the remote changes
+(e.g., 'git pull ...') before pushing again.
+See the 'Note about fast-forwards' in 'git push --help' for details.
+
 */
