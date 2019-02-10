@@ -2,8 +2,8 @@
 
 **加油哇宝贝！**
 
-I am studying at Nanjing University, temporarily major in physics. This winter vacation I will work hard on algorithms, ics, pattern recognition and innovation project. **Go to study!** Damn it!
+I am studying at Nanjing University, temporarily major in physics. This winter vacation I will work hard on algorithms, ics, pattern recognition and innovation project. **Go to study!**
 
-> For  come on baby
+> 4c636c2049206c6f766520796f75
 
 --------------------------------------
