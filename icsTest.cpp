@@ -7,7 +7,7 @@ using namespace std;
 char str[100] = "";
 
 void TwoPrint(int t) {
-	cout << "10进制" << t << endl;
+	cout << "10进制: " << t << endl;
 	for (int i = 0; i < 100; ++i)
 		str[i] = '\0';
 
@@ -17,28 +17,12 @@ void TwoPrint(int t) {
 	printf("%s\n", str);
 }
 
-int bang(int x)
-{
-	TwoPrint(x);
-	//int tmpx = x & ( (~x) >> 1);
-	int tmpx = x | ((~x) + 1);
-	TwoPrint(tmpx);
-	tmpx = tmpx >> 31;
-	TwoPrint(tmpx);
-	tmpx = tmpx + 1;
-	return tmpx;
-}
-
 int main() {
-	TwoPrint(0 | 13413);
-	int x = 0, t = !x;
-	cout << !((x >> 31) | (!x));
+	int x = 0x80000000;
 	TwoPrint(x);
-	x >>= 31;
-	TwoPrint(x);
+	int y = 0xffffffff;
+	TwoPrint(y);
 
-	TwoPrint(x | t);
-
-
+				
 	return 0;
 }
