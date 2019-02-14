@@ -17,6 +17,16 @@ hotspot 热岛, 重要的地方极度危险的地方	vaccination n. 疫苗接种
 
 **Because measles is among the most highly contagious of all infectious diseases it is bound to spring up in areas with low vaccination rates.** 因为麻疹是所有传染病中最有可能通过接触传播的, 所以一定会在疫苗接种率低的地方爆发.
 
+## Like a son but cheaper - harried South Koreans pamper pets instead of having kids
+
+harried v. 不断烦扰, pamper v. 精心照顾, 娇惯
+
+**Social pressures in South Korea are such that parents are required to provide resouces for decades from private schooling to tutoring to art classes.** 社会压力大 以至于(such that) 几十年来父母被要求为孩子提供各种资源
+
+**spur a flourishing pet care industry** 	促进宠物护理产业的繁荣
+
+**more than double in size** 	在规模上增长一倍
+
 
 
 
@@ -60,16 +70,16 @@ hotspot 热岛, 重要的地方极度危险的地方	vaccination n. 疫苗接种
 | be bound to | 极有可能的 |
 | spring up | 迅速出现, 突然兴起 |
 | dean | (大学) 学院院长 |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
+| --- |  |
+| shower sth. on sb. /  shower sb. with sth. | 大量给予 |
+| fuel | v. 为..添加燃料, 刺激, 加强 |
+| On top of some | 除了..之外, 还有...(多指不好的事) |
+| budget | v. 制定预算, 计划开支 |
+| lag | n. 时差(jet lag) v. 掉队, 落后 |
+| surge | v. 激增, 剧烈上升 |
+| in vogue | 正在流行 |
+| venture | 商业冒险 |
+| venture capitalist | 风投资本家 |
 |      |      |
 |      |      |
 |      |      |
