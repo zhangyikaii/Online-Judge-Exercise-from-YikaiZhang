@@ -27,6 +27,16 @@ harried v. 不断烦扰, pamper v. 精心照顾, 娇惯
 
 **more than double in size** 	在规模上增长一倍
 
+## China's film industry finally joins the space race
+
+**that is about to change**		be about to 即将
+
+**The flim opens Tuesday amid gradiose expectations that it will represent the dawning of a new era in Chinese filmmaking**		amid 在...中间		grandiose 非常大的, 宏伟的
+
+**Filmmakers in China see science fiction as a holy grail**.		holy grail 圣杯, 极难得到的东西
+
+**His novels are sprawling epics and deeply researched.**		他的小说叙事宏大, 背景研究细致入微
+
 
 
 
@@ -80,20 +90,20 @@ harried v. 不断烦扰, pamper v. 精心照顾, 娇惯
 | in vogue | 正在流行 |
 | venture | 商业冒险 |
 | venture capitalist | 风投资本家 |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
+| --- |      |
+| blockbuster | 非常成功的书或影片 |
+| distant relative | 远方亲戚 |
+| in the not-too-distant future | 不久的将来 |
+| devour | 狼吞虎咽, 吞噬 |
+| lead a renaissance | 引领了复兴 |
+| genre | 风格, 类型, 体裁 ( 正式用法 ) |
+| plausible | 真实可信的 |
+| encounter | 偶然相遇, 遭遇 |
+| milestone | 里程碑, 重大事件, 转折点 |
+| probe | 调查, 不载人的航天器 |
+| fortune | 财富, 命运 |
+| curator | 博物馆, 图书馆的馆长 |
+| the dawning / dawn of sth. | ...的开始, ...的曙光 |
 |      |      |
 |      |      |
 |      |      |
