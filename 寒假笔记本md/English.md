@@ -37,6 +37,20 @@ harried v. 不断烦扰, pamper v. 精心照顾, 娇惯
 
 **His novels are sprawling epics and deeply researched.**		他的小说叙事宏大, 背景研究细致入微
 
+## PM abe vows to tackle growing child abuse in Japan
+
+**Prime Minister** Shinzo Abe on Saturday vowed to **crack down on** the increasing number of child abuse cases in Japan after the death of ...
+
+**make a plea for world peace**		世界和平的申辩
+
+**This tragedy has touched the nerve in Japan.**		这场悲剧触动了日本社会的神经
+
+The **high-profile** case has drawn huge media attention, prompting the government to take action amid growing **public awareness** over child abuse.		这起备受关注的案件已经引发了媒体的广泛关注, 并在公众关注日益增加的背景下, 促使政府采取了行动.
+
+...... to confirm within a month the safety of all children **suspected to have been abused.**		确认所有疑似受到虐待的儿童
+
+Police reported the suspected abuse of **a** record-high 80104 **minors** to child welfare authorities.......
+
 
 
 
@@ -104,22 +118,22 @@ harried v. 不断烦扰, pamper v. 精心照顾, 娇惯
 | fortune | 财富, 命运 |
 | curator | 博物馆, 图书馆的馆长 |
 | the dawning / dawn of sth. | ...的开始, ...的曙光 |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
+| --- |      |
+| vow | v. 发誓 |
+| tackle | v. 应对, 处理, (橄榄球中) 擒抱 |
+| allegedly | adv. 据说, 据指控 |
+| crack down on | 严厉打击, 严格治理 |
+| was found dead in somewhere |      |
+| plea | n. 请求, 申辩 |
+| on suspicion of | 因涉嫌... ( 因为涉嫌做了什么 ) |
+| reportedly | adv. 据说 |
+| assault | n. 攻击；袭击, vt. 攻击；袭击 |
+| physical assault / physical violence | 肢体暴力 |
+| footage | 视频 |
+| high-profile | 备受关注的, **高调的**, 引发热议的 |
+| fiscal year | 为了制定预算划入的时间段, 财年 |
+| record-high | 创纪录的 |
+| minor | 未成年人 |
 |      |      |
 |      |      |
 |      |      |
