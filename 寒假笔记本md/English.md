@@ -57,7 +57,11 @@ Police reported the suspected abuse of **a** record-high 80104 **minors** to chi
 
 HQ 公司总部.
 
+## Your bedtime pattern changes as your age, but is that a sign of trouble?
 
+And **therein,** experts say, may **lie** the key to usderstanding sleep as you age.	这就是你衰老过程中睡眠变化的关键.
+
+**All is well with the universe.**		世上的一起都很圆满和谐
 
 
 
@@ -140,34 +144,135 @@ HQ 公司总部.
 | fiscal year | 为了制定预算划入的时间段, 财年 |
 | record-high | 创纪录的 |
 | minor | 未成年人 |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
-|      |      |
+| --- |  |
+| outspoken | 直言不讳的, 坦率的 |
+| walk away from the EU | 脱欧 |
+| has nothing to do with | 与...毫无关系 |
+| future-proofing | v. 使不过时 |
+| legal entity | 法律实体 |
+| staggering | 惊人的, 令人震惊的 |
+| hypocrisy | n. 虚伪, 伪善 |
+| ditch | v. 抛弃, 遗弃 |
+| free trade agreement | 自由贸易协定 |
+| landmark, milestone | 里程碑 |
+| arrangement | n. 商定, 协定, 安排 |
+| fly the flag | 表示拥护, 摇旗呐喊 |
+| pull back from sth. | 改变主意, 退出 |
+| inherit a fortune | 继承了一笔财富 |
+| vacuum | 真空的 |
+| --- |      |
+| age | v. 变老 |
+| stiffen | v. 变得僵硬 |
+| heal | v. 愈合, 治愈 |
+| specialize in sth | 专攻(研究)某个方面 |
+| aggravating | 令人恼怒的 |
+| snooze | n. 打盹, 小睡 |
+| take / have a snooze |      |
+| sleep though | 一直在睡 |
+| benign | 没有危害的, 和善的 |
+| in the pose | 摆了...姿势 |
+| depression | n. 抑郁, 沮丧 |
+| psychological well-being | 心理健康 |
+| document | v. 记录 |
+
+|                       |                |
+| --------------------- | -------------- |
+| when it comes to sth. | 当涉及到...时  |
+| quality               |                |
+| quantity              |                |
+| therein lies sth.     | 这就是... 此即 |
+| function              | v. 工作, 运转  |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
+|                       |                |
 
