@@ -1,5 +1,9 @@
 # 流利阅读
 
+[TOC]
+
+
+
 ## Faking it: how selfie dysmorphia is driving people to seek surgery
 
 **It was around this time, the height of her Snapchat obsession, that Anika started contacting cosmetic doctors on Instagram.** 就是在这个时间节点, 在最痴迷Snapchat的时候
@@ -68,6 +72,21 @@ And **therein,** experts say, may **lie** the key to usderstanding sleep as you 
 吐血推荐: 代表月经的新 emoji 表情受到欢迎
 
 bloody 非常地, 很( 略显粗鲁 )
+
+
+
+## Plummeting insect numbers 'threaten collapse of nature'
+
+plummet		暴跌, 急剧下降		threaten		v. 预示凶兆
+
+It should be of huge concern to all of us.	对我们所有人来说, 这一情况应该是特别令人担忧的.
+
+**but not nearly enough to outweigh the big losses**		但是仍然不会超过大量的减少
+
+**intense, intensive**
+相同点：两者都可理解为“密集的”。但 intense 与 intensive 相比更强调 serious，程度很强，比如激烈的竞争，intense competition；而 intensive 表示密集时更强调密度很高，比如 intensive training
+
+
 
 | 英文              | 中文                                  |
 | ----------------- | :------------------------------------ |
@@ -179,104 +198,104 @@ bloody 非常地, 很( 略显粗鲁 )
 | psychological well-being | 心理健康 |
 | document | v. 记录 |
 
-|                       |                            |
-| --------------------- | -------------------------- |
-| when it comes to sth. | 当涉及到...时              |
-| quality               |                            |
-| quantity              |                            |
-| therein lies sth.     | 这就是... 此即             |
-| function              | v. 工作, 运转              |
-| ---                   |                            |
-| menstruation          | 月经                       |
-| symbolize             | v. 象征, 代表              |
-| make waves            | 掀起巨浪, 产生巨大的影响   |
-| unveil                | v. (首次)介绍, 推出        |
-| droplet               | n. 小滴                    |
-| crimson               | 深红色的, 深红色, 绯红色的 |
-| be meant to do sth.   | 旨在做某事, 理应做某事..   |
-| poetically            | 有诗意地                   |
-| transplant            | v. 移植                    |
-| revolutionary         | 革命性的                   |
-| stigma                | n. 耻辱                    |
-| half-measure          |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
-|                       |                            |
+|                       |                                         |
+| --------------------- | --------------------------------------- |
+| when it comes to sth. | 当涉及到...时                           |
+| quality               |                                         |
+| quantity              |                                         |
+| therein lies sth.     | 这就是... 此即                          |
+| function              | v. 工作, 运转                           |
+| ---                   |                                         |
+| menstruation          | 月经                                    |
+| symbolize             | v. 象征, 代表                           |
+| make waves            | 掀起巨浪, 产生巨大的影响                |
+| unveil                | v. (首次)介绍, 推出                     |
+| droplet               | n. 小滴                                 |
+| crimson               | 深红色的, 深红色, 绯红色的              |
+| be meant to do sth.   | 旨在做某事, 理应做某事..                |
+| poetically            | 有诗意地                                |
+| transplant            | v. 移植                                 |
+| revolutionary         | 革命性的                                |
+| stigma                | n. 耻辱                                 |
+| half-measure          |                                         |
+| ---                   |                                         |
+| vanish                | v. 消失                                 |
+| hurtle                | v. 快速移动; ( 有危险地 )猛冲           |
+| catastrophic          | adj. 灾难性的, 惨重的                   |
+| endangered            | adj. 濒危的                             |
+| mammal                | 哺乳动物                                |
+| pollinate             | v. 给...授粉                            |
+| nutrient              | 养分, 营养物, 滋养物                    |
+| loathe                | v. 恨, 憎恨                             |
+| loathe doing sth.     |                                         |
+| intensive             | 密集的, 集中的                          |
+| pesticide             | n. 杀虫剂, 农药                         |
+| amphibian             | 两栖动物                                |
+| adaptable             | adj. 有适应能力的, 能适应的, 适应性强的 |
+| outweigh              | v. 比...更重要, 重于, 大于              |
+| gravely               | 严重地                                  |
+| sobering              | 令人清醒的, 令人警醒的                  |
+| collation             | n. 核对, 对照                           |
+| halt                  | v. 突然停止                             |
+| dreadful              | 可怕的, 糟糕的                          |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
+|                       |                                         |
 

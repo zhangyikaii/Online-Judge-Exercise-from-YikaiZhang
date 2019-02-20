@@ -59,7 +59,7 @@ void AddEdge(int x, int y, int W) {
 // 加边（无向图）
 	for (int i = 1; i <= m; i++) {
 		int x = read(), y = read(), w = read();
-		R = max(R, w);//二分右端点 
+		R = max(R, w);//二分右端点要用的
 		AddEdge(x, y, w);
 		AddEdge(y, x, w);
 	}
@@ -634,3 +634,135 @@ Tarjan算法是**基于对图深度优先搜索的算法**，**每个强连通�
 > `对于非根节点，判断是不是割点就有些麻烦了。我们维护两个数组 dfn[] 和 low[]，dfn[u]表示顶点u第几个被（首次）访问，low[u]表示顶点u及其子树中的点，通过非父子边（回边），能够回溯到的最早的点（dfn最小）的dfn值（但不能通过连接u与其父节点的边）。` **`对于边(u, v)，如果low[v] >= dfn[u]，此时u就是割点。`**
 
 **`dfn[], low[] 具体计算方法看上面的Tarjan算法描述, 关键就是: 如果low[v] >= dfn[u]，此时u就是割点。`**
+
+
+
+## 二分
+
+### 例题: 洛谷1642通往奥格瑞玛的道路
+
+> 输出格式：
+> 仅一个整数，表示歪嘴哦交费最多的一次的最小值。
+>
+> // 题目："他所经过的所有城市中最多的一次收取的费用的最小值是多少？"
+> // **这句话的意思实际上是指：**
+> //         对于一条路径 a ， 定义函数f(a)。
+> //         对于路径上的所有点权构成的集合s， 满足f(a)=max(s)
+> //         而对于一张图，从起点到终点存在多条路径a1,a2,a3...
+> //         对于所有可能的路径a1,a2,a3...，均存在对应的f(a1),f(a2),f(a3)...
+> //         求f(a1),f(a2),f(a3)...中的最小值
+>
+> **基本思路:** 
+> //基本的思想就是二分，**二分什么呢？**
+> //         被二分的一定是一个包含解的集合 
+> //         首先，你的f(a)是等于max(s)的，f(a)一定是一个点权，即我们所求的解为一个点权, 就是这个结点过路费
+> //         而你走过的每一个路径中的最小点权f(a)一定在一个区间内: 即整张图的最低点权与最高点权之间
+> //         通过对整张图的点权进行排序，然后做二分，在整张图的点权集合中找出一个点权，这个点权是min(  f(a1)  f(a2)  f(a3) ... ) 就是本题答案了
+> /**/我们已经找到了解的集合(解的范围)：点权集合。**
+> //二分点权集合，每一次都会得到一手点权，这个点权将是路径上所有点点权的天花板
+> //在整张图上寻找路径，**但是因为我们得到了一个天花板，所以点权大于这个天花板的点就不能选**  // 注意这里!!!
+> //寻找路径也应该是最短路，因为你会扣血，所以**需要找到扣血最少的**路径
+> //要是找到的这个路径上的扣血总和依然致死，那么我们找到的点权就是无效的，继续向上二分，扩大点权范围 
+> //要是不致死，那么分出的点权就是有效的，继续向下二分，缩小点权范围 
+
+
+
+二分是一定要用的 **这种问法**基本十个有九个是要用二分, 那么我们要二分什么呢 血量还是金钱呢, 因为要求的是收费所以就二分金钱, 
+二分的条件就是 以当前值为最大值 判断 **( 转变成判定问题 )** 是否有一条路可以使得
+
+**每条边的收费都小于等于此值 并且 走到终点之后血量不会被扣光（边界应该是血量<=0就算死了）**
+
+
+
+## Dijkstra + 堆优化
+
+```c++
+struct cmp {
+	bool operator()(int a, int b) {
+		return dis[a] > dis[b];			// 这里配的是 dis[] !!!
+	}
+};
+// 注意这个cmp的搭配
+priority_queue<int, vector<int>, cmp> Q;
+
+void dijkstra(int s) {
+	Q.push(s);
+	//vis[s]=1;
+	dis[s] = 0;
+	while (!Q.empty()) {
+		int u = Q.top();
+		Q.pop();
+		if (vis[u])
+			continue;
+		vis[u] = 1;
+		for (int i = head[u]; i; i = next[i]) {
+			int v = to[i];
+			if (!vis[v] && dis[v] > dis[u] + cos[i]) {
+				dis[v] = dis[u] + cos[i];
+				Q.push(v);
+			}
+		}
+	}
+}
+
+// 可以看一下 洛谷最短路1346电车有带路口的转化.cpp 里面是无堆优化的
+```
+
+
+
+## 网络流
+
+### 网络流的基本概念[¶](https://oi-wiki.org/graph/flow/#_1)
+
+>**流量：**对于网络中的每条边的流量需要满足以下三条性质：
+>1. 容量限制：对于每条边，流经该边的流量不得超过该边的容量
+>2. 斜对称性：每条边的流量与其相反边的流量之和为 0
+>3. 流量守恒：从源点流出的流量等于汇点流入的流量。
+
+#### 最大流[¶](https://oi-wiki.org/graph/flow/#_3)
+
+我们有一张图，要求从**源点流向汇点的最大流量**（可以有很多条路到达汇点），就是我们的最大流问题。
+
+#### 最小费用最大流[¶](https://oi-wiki.org/graph/flow/#_4)
+
+最小费用最大流问题是这样的：**每条边都有一个费用，代表单位流量流过这条边的开销**。我们要在求出最大流**的同时**，要求花费的费用最小。
+
+#### 最小割[¶](https://oi-wiki.org/graph/flow/#_5)
+
+割其实就是删边的意思，当然最小割就是割掉 $X$ 条边来让 $S$ 跟 $T$ 不互通。我们要求 $X​$ 条边加起来的流量综合最小。这就是最小割问题。
+
+### 拆点[%%%](https://oi-wiki.org/graph/flow/node/)
+
+例题: [luogu  P4568  飞行路线](https://www.luogu.org/problemnew/show/P4568)[¶](https://oi-wiki.org/graph/flow/node/#luogu-p456891jloi201193)
+
+**分层图最短路**:
+
+看看题目, 有免费( 权值为零的路线 )放在哪里好像都可以, 这种用分层, 有向的, 只能下去一次, 这样的话**有几层就保证了乘坐免费的次数是几层**
+
+**注意建图细节!!!**
+
+
+
+## 看到了大佬的模板,,,
+
+```c++
+#define debug(...) fprintf(stderr,__VA_ARGS__)
+#define DEBUG printf("Passing [%s] in LINE %lld\n",__FUNCTION__,__LINE__)
+#define Debug debug("Passing [%s] in LINE %lld\n",__FUNCTION__,__LINE__)
+#define all(x) x.begin(),x.end()
+using namespace std;
+const double eps = 1e-8;
+const double pi = acos(-1.0);
+typedef long long ll;
+typedef pair<ll, ll> pii;
+template<class T>ll chkmin(T &a, T b){ return a>b ? a = b, 1 : 0; }
+template<class T>ll chkmax(T &a, T b){ return a<b ? a = b, 1 : 0; }
+template<class T>T sqr(T a){ return a*a; }
+template<class T>T mmin(T a, T b){ return a<b ? a : b; }
+template<class T>T mmax(T a, T b){ return a>b ? a : b; }
+template<class T>T aabs(T a){ return a<0 ? -a : a; }
+#define min mmin
+#define max mmax
+#define abs aabs
+```
+
