@@ -41,6 +41,8 @@ harried v. 不断烦扰, pamper v. 精心照顾, 娇惯
 
 **His novels are sprawling epics and deeply researched.**		他的小说叙事宏大, 背景研究细致入微
 
+
+
 ## PM abe vows to tackle growing child abuse in Japan
 
 **Prime Minister** Shinzo Abe on Saturday vowed to **crack down on** the increasing number of child abuse cases in Japan after the death of ...
@@ -87,6 +89,16 @@ It should be of huge concern to all of us.	对我们所有人来说, 这一情�
 相同点：两者都可理解为“密集的”。但 intense 与 intensive 相比更强调 serious，程度很强，比如激烈的竞争，intense competition；而 intensive 表示密集时更强调密度很高，比如 intensive training
 
 
+
+## Karl Lagerfeld, designer who defined luxury fashion, dies at 85
+
+in his 80s 	80多岁的时候
+
+His greatest **calling** was as the **orchestrator** of his own **myth**.	他最伟大的**事业**, 是成为了 他自己 这个**神话**的**缔造者**
+
+A selfidentified "caricature," with his dark glasses, powdered ponytail, black jeans, fingerless gloves, starched collars, Chrome Hearts jewelry and obsessive Diet Coke 
+
+fashion polyglot	时尚鬼才
 
 | 英文              | 中文                                  |
 | ----------------- | :------------------------------------ |
@@ -238,25 +250,25 @@ It should be of huge concern to all of us.	对我们所有人来说, 这一情�
 | collation             | n. 核对, 对照                           |
 | halt                  | v. 突然停止                             |
 | dreadful              | 可怕的, 糟糕的                          |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
+| ---                   |                                         |
+| prototype             | n. 原型, 典型                           |
+| polyglot              | 多元的人, 掌握多种语言的人              |
+| prolific              | ( 艺术家 )多产的, 作品丰富的            |
+| yacht                 | 游艇                                    |
+| estate                | 庄园,                                   |
+| couture               | 高级时装                                |
+| collaboration         | n. 合作产品                             |
+| caricature            | n. 漫画, 夸张的风格                     |
+| ponytail              | n. 马尾辫                               |
+| starched              | v. 上浆( 用淀粉浆硬衣服 )               |
+| in collaboration with | 与...合作                               |
+| dismiss               | v. 使免职, 解雇                         |
+| refer to A as B       | 把 A 称为 B                             |
+| styliste              | 服装设计师                              |
+| repurpose             | v. 重新利用, 改变...的用途              |
+| as opposed to         | 而不是...                               |
+| opportunistic         | adj. 投机的, 机会主义的                 |
+| orchestrator          | 策划者                                  |
 |                       |                                         |
 |                       |                                         |
 |                       |                                         |

@@ -56,7 +56,7 @@ void tarjan(int x) {
 		int y;
 		// 当栈不空, 栈发挥作用啦, 可以知道以x为起点的一路下来dfs有什么元素
 		while (y = stac[top--]) {
-			sd[y] = x;			// 为了下面拓扑排序 if (sd[i] == i... 中找到每个环中领头的那个点(也是为了找到对的p[])
+			sd[y] = x;			// 为了下面拓扑排序 if (sd[i] == i... 中找到每个环中领头的那个点(也是为了找到对的p[]), 表示这个点在新环中
 			vis[y] = 0;			// 为下一次做准备, 这一次以 x 开始的全部搞出来归为零
 			if (x == y)
 				break;
@@ -75,12 +75,14 @@ int topo() {
 	}
 	// k 从队里不断拿出来, k 的序列就是拓扑排序!!!
 	while (!q.empty()) {
-		int k = q.front(); q.pop();
+		int k = q.front();
+		q.pop();
+
 		for (int i = h[k]; i; i = ed[i].next) {
 			int v = ed[i].to;
 			dist[v] = max(dist[v], dist[k] + p[v]);		// 新图上dp!!! k是当前点(环), v是邻接的点(环), 不断往下选择最大的下一个环(点) // 注意这里的dp为了无后效性, 一定要拓扑排序, 就是从队里不断拿出来!!!
 			in[v]--;			// 周围的入度减一
-			// 如果入度为0了, 入栈
+			// 如果入度为0了, 入队
 			if (in[v] == 0) 
 				q.push(v);
 		}
