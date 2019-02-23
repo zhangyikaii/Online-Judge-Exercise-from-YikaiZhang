@@ -171,7 +171,7 @@ $f[i]=f[i-1]+(i \mod s ==0)$
 
 **题目描述**
 
-小明的花店新开张，为了吸引顾客，他想在花店的门口摆上一排花，共*m*盆。通过调查顾客的喜好，小明列出了顾客最喜欢的*n*种花，从1到*n*标号。为了在门口展出更多种花，规定第*i*种花不能超过$a_i​$盆，摆花时同一种花放在一起，且不同种类的花需按标号的从小到大的顺序依次摆列。
+小明的花店新开张，为了吸引顾客，他想在花店的门口摆上一排花，共*m*盆。通过调查顾客的喜好，小明列出了顾客最喜欢的*n*种花，从1到*n*标号。为了在门口展出更多种花，规定第*i*种花不能超过$a_i$盆，摆花时同一种花放在一起，且不同种类的花需按标号的从小到大的顺序依次摆列。
 
 试编程计算，一共有多少种不同的摆花方案。
 
@@ -179,7 +179,52 @@ $f[i]=f[i-1]+(i \mod s ==0)$
 
 
 
-## 记忆化搜索
+## 记忆化搜索[%%%](https://interestinglsy.blog.luogu.org/memdfs-and-dp)
+
+#### 总结一下记忆化搜索是啥:
+
+- 不依赖任何 **外部变量**
+
+- **答案**以返回值的形式存在, 而不能以参数的形式存在(就是不能将 `dfs` 定义成 `dfs(pos, tleft, nowans)` , 这里面的 `nowans` 不符合要求).
+
+- 对于**相同一组参数**, `dfs` 返回值总是相同的
+
+> 记忆化搜索和动态规划**从根本上来讲就是一个东西**,(印象中)任何一个 `dp `方程都能转为记忆化搜索 ，反之亦然（为什么？见下文“体现在”的第四条）
+
+体现在:
+
+- 根据**记忆化搜索**的参数可以直接得到`dp`的状态，反之亦然
+
+- 根据**记忆化搜索**的递归关系可以写出状态转移方程，这个方程可以直接写出循环式的`dp`，**只不过是反的**(想想为什么？)，反之亦然
+
+- 大部分记忆化搜索时空复杂度与 **不加优化的** dp 完全相同
+
+- ### 最重要的一点：二者思想类似！！ 核心思想均为：**利用对于相同参数答案相同的特性**，对于相同的参数（循环式的`dp`体现为数组下标），记录其答案，免去重复计算，从而起到优化时间复杂度的作用。这，便是二者的精髓。
+
+建议好好想想第四条。记住，学一个算法，一定要理解他的精髓。
+
+举个栗子:
+
+dp[i][j][k] = dp[i+1][j+1][k-a[j]] + dp[i+1][j][k]*d**p*[*i*][*j*][*k*]=*d**p*[*i*+1][*j*+1][*k*−*a*[*j*]]+*d**p*[*i*+1][*j*][*k*]
+
+转为
+
+```cpp
+int dfs( int i , int j , int k ){
+    边界条件
+    if( mem[i][j][k] != -1 ) return mem[i][j][k];
+    return mem[i][j][k] = dfs(i+1,j+1,k-a[j]) + dfs(i+1,j,k);
+}
+int main(){
+    memset(mem,-1,sizeof(mem));
+    读入
+    cout << dfs(1,0,0) << endl;
+}
+```
+
+二者满足上面提到的所有关系
+
+------------
 
 记忆化搜索 = 搜索的形式 + 动态规划的思想
 
@@ -770,5 +815,71 @@ template<class T>T aabs(T a){ return a<0 ? -a : a; }
 #define min mmin
 #define max mmax
 #define abs aabs
+```
+
+## 对拍 && 调试
+
+生成极端数据: 图的题生成树, 边界数据, 取到边界MAX.
+
+### generator.cpp
+
+```c++
+#include <stdlib.h>
+#include <iostream>
+#include <time.h> 
+using namespace std;
+int main() {
+	srand( (unsigned)time( NULL ) );
+	unsigned int a, b;
+	a = (rand() << 16) + rand();
+	b = (rand() << 16) + rand();
+	a %= 100000;
+	b %= 100000;
+	cout << a << endl << b; 
+	return 0;
+}
+```
+
+### duipai.bat
+
+```tcl
+:loop
+generator.exe > data.txt   
+gaojing.exe < data.txt > std.txt  
+putong.exe < data.txt > ans.txt 
+fc /A std.txt ans.txt
+if not errorlevel 1 goto loop
+pause
+:end
+
+# fc /A 就是比较这两个文件
+# 如果没有报错, 就goto loop, 返回回去继续跑
+```
+
+### 对拍实例
+
+[%%%](C:\Users\Kai\Documents\Visual Studio 2013\Projects\work\ZhangYikai\对拍实例)
+
+
+
+## 错位输出
+
+```c++
+//这个例子将说明，关闭与stdio的同步后，混用两种IO的后果
+//建议单步运行来观察效果
+#include <iostream>
+#include <cstdio>
+using namespace std;
+int main()
+{
+ ios::sync_with_stdio(false);
+ //关闭IO后，cin/cout将使用独立缓冲区，而不是将输出同步至scanf/printf的缓冲区，从而减少IO耗时
+ cout<<"a\n";
+ //cout下，使用'\n'换行时，内容会被缓冲而不会被立刻输出，应该使用endl来换行并立刻刷新缓冲区
+ printf("b\n");
+ //printf的'\n'会刷新printf的缓冲区，导致输出错位
+ cout<<"c\n";
+ return 0;//程序结束时，cout的缓冲区才会被输出
+}
 ```
 
