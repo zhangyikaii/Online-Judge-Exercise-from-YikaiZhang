@@ -269,10 +269,10 @@ fashion polyglot	时尚鬼才
 | as opposed to         | 而不是...                               |
 | opportunistic         | adj. 投机的, 机会主义的                 |
 | orchestrator          | 策划者                                  |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
-|                       |                                         |
+| ---                   |                                         |
+| ---                   |                                         |
+| non-trivial           | 非平凡的, 有意义的, 意义重大的.         |
+| chinaware             | 瓷器                                    |
 |                       |                                         |
 |                       |                                         |
 |                       |                                         |
@@ -311,3 +311,6 @@ fashion polyglot	时尚鬼才
 |                       |                                         |
 |                       |                                         |
 
+
+
+# Last

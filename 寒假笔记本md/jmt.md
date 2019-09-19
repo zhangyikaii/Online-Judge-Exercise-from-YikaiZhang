@@ -547,6 +547,7 @@ if lnum >= len(text_org):
 	LOG("[ERROR] line number "+lnum+" is larger than length of file: "+file_org)
     continue
     
+# 这个是删除未执行的代码的
 # removeCodeLinesFromSourceFile(file_org, lines, file_new):
 if line.startswith('public'):
     continue
