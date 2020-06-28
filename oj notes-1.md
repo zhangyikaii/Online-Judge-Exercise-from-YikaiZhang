@@ -901,7 +901,11 @@ int main()
 
 下面是一个反例：由红色边组成的生成树是瓶颈树，但并非最小生成树。
 
+<<<<<<< HEAD:oj.md
 ![1551018747099](assets/1551018747099.png)
+=======
+![1551018747099](C:\Users\Kai\AppData\Roaming\Typora\typora-user-images\1551018747099.png)
+>>>>>>> 78e0f1b614c342f9dee3ed8877ed5696ad0c4327:寒假笔记本md/oj.md
 
 用上面的命题 1 很多瓶颈MST直接就变成最小生成树来解了???
 
@@ -913,7 +917,11 @@ int main()
 
 例如:
 
+<<<<<<< HEAD:oj.md
 $\sum_{i=1}^{n}\left\lfloor\frac{n}{i}\right\rfloor$
+=======
+$\sum_{i=1}^{n}\left\lfloor\frac{n}{i}\right\rfloor​$
+>>>>>>> 78e0f1b614c342f9dee3ed8877ed5696ad0c4327:寒假笔记本md/oj.md
 
 就可以用除法分块:
 
@@ -937,7 +945,11 @@ for(LL l = 1, r; l <= n; l = r + 1) {
 
 ## 高精度取模
 
+<<<<<<< HEAD:oj.md
 $a \% b = a-b *\left\lfloor\frac{a}{b}\right\rfloor$
+=======
+$a \% b = a-b *\left\lfloor\frac{a}{b}\right\rfloor​$
+>>>>>>> 78e0f1b614c342f9dee3ed8877ed5696ad0c4327:寒假笔记本md/oj.md
 
 
 
